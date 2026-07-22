@@ -8,12 +8,11 @@ on:
       device:
         description: "Device"
         required: true
-        default: "a05s"
+        default: "a12s"
         type: choice
         options:
-          - "a05s"
           - "a12s"
-          - "j6lte"
+          - "a22"
       debug_build:
         description: "Debug build"
         required: true
