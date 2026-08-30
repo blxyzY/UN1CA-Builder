@@ -8,9 +8,10 @@ on:
       device:
         description: "Device"
         required: true
-        default: "a12s"
+        default: "a23"
         type: choice
         options:
+          - "a23"
           - "a12s"
           - "a22"
           - "a21s"
